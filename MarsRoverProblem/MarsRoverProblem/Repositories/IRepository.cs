@@ -11,7 +11,5 @@ namespace MarsRoverProblem.Repositories
         ResponseBase CanIDo(T item, Plateau plateau);
         ResponseBase Move(T item, Plateau plateau);
         void Rotate(T item, char key);
-        //ResponseBase Move(ref T item, Plateau plateau);
-        //void Rotate(ref T item, char key);
     }
 }
